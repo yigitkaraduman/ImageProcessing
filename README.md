@@ -25,8 +25,11 @@ is equivalent to java Main -e -i test.ppm -o out
 
 Filters:
 1)Edge detection
+
 2)Change average image color to grey scale.
+
 3)Change image to negative.
+
 4)Chane image tint: changes average image color corresponding to rgb set which is given by parameter.
 
 Compression:
