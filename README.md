@@ -1,6 +1,4 @@
 # QuadTree
-(Please definitely check the bottom part of this file that has titled "IMPORTANT".)
-
 A program that provides filters, and compressions to given ppm file.
 
 # How to compile and run the program:
