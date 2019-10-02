@@ -1,7 +1,4 @@
 # QuadTree
-
-YIGIT KARADUMAN 161101064.
-
 (Please definitely check the bottom part of this file that has titled "IMPORTANT".)
 
 A program that provides filters, and compressions to given ppm file.
