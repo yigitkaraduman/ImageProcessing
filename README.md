@@ -3,7 +3,7 @@
 
 A program that provides filters, and compressions to given ppm file.
 
-How to compile and run the program:
+# How to compile and run the program:
 You will receive an image file on the command line following the -i fl
 ag as your input: java Main -i test.ppm.
 In addition, support the following 
@@ -22,15 +22,15 @@ of -c or -e will be given. Order of the
 ags should not matter, i.e. java Main -o out -e -i test.ppm
 is equivalent to java Main -e -i test.ppm -o out
 
+# Filters:
 
-Filters:
 1)Edge detection
 
 2)Change average image color to grey scale.
 
 3)Change image to negative.
 
-4)Chane image tint: changes average image color corresponding to rgb set which is given by parameter.
+4)Change image tint: changes average image color corresponding to rgb set which is given by parameter.
 
 Compression:
 -Compresses the image(.ppm file) given by user.
@@ -42,7 +42,7 @@ Output of compression:
 -8 different compressed .ppm files are created. (out-1, out-2, out-3...)
 -The resolution of original image decreases in the sequence of 8 image. (thresholds have increased by programmer in every compression step).
 
-IMPORTANT:
+# IMPORTANT:
 -The difference between 8 images cannot be detected from shapes of images because of the small threshold values.
 -Hence, program prints to console count of divisions in every image to allow users follow up the different compression levels.
 -If you want to see the difference between images easily, you can give larger threshold values(1000, 2000, 5000..) in compress method calls in the Main class.
